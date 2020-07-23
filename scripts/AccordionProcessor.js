@@ -6,6 +6,7 @@
 // toggling works by renaming the element's class
 // the element is identified by ID
 
+alert("Width of content area is " + window.innerWidth);
 
 var hamburgerIcon = document.getElementsByClassName("hamburger-icon")[0]; // assume there's only one hamburger
 var i;
