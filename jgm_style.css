@@ -120,7 +120,7 @@ h3 {
 
 /* When the screen is less than 700 pixels wide, hide all "normal" links, except for the first one ("Home"). 
    Reveal the link that contains the hamburger icon */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .navbar a:not(:first-child) {
         display: none;
     }
@@ -132,7 +132,7 @@ h3 {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .navbar.responsive {
         position: relative;
     }
@@ -179,7 +179,7 @@ h3 {
 /* responsive: make the book links into a vertical, not horizontal menu */
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	#booklinks_panel li{
 		display:				block;
 		text-align:				left;	
